@@ -56,7 +56,7 @@
                                 this.$Message.error('Password Wrong!');
                             }
                         }).catch(err => {
-                            this.$Message.error('Error!');
+                            this.$Message.error('Error!!!');
                             console.info('报错的信息', err.response.message);
                         });
                     } else {
