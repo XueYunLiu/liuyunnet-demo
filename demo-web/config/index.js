@@ -13,7 +13,7 @@ module.exports = {
     // proxyTable: {},
     proxyTable: {
       '/rest': {
-        target: 'http://localhost:8081',//设置你调用的接口域名和端口号 别忘了加http
+        target: 'http://47.111.114.165:8081',//设置你调用的接口域名和端口号 别忘了加http
         changeOrigin: true,
         pathRewrite: {
           '^/rest': '/rest'
