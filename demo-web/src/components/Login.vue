@@ -44,7 +44,7 @@
                 this.$refs[name].validate((valid) => {
                     if (valid) {
                         this.$axios({
-                            url: '/rest/login',//请求的地址
+                            url: 'http://47.111.114.165:8081/rest/login',//请求的地址
                             method: 'post',//请求的方式
                             data: this.formInline//请求的表单数据
                         }).then(res => {
