@@ -51,7 +51,7 @@
                             const success = res.data;
                             console.info('后台返回的数据', success);
                             if (success === true) {
-                                this.$Message.success('Success!!!');
+                                this.$Message.success('Success!');
                             } else {
                                 this.$Message.error('Password Wrong!');
                             }
