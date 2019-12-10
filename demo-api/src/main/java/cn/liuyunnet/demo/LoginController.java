@@ -18,7 +18,7 @@ public class LoginController {
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public Boolean login(@RequestBody User user) {
         if ("admin".equals(user.getUserName())) {
-            if (!"111111".equals(user.getPassword())) {
+            if (!"1111111".equals(user.getPassword())) {
                 return Boolean.FALSE;
             }
         }
